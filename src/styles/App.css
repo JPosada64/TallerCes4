@@ -1,0 +1,59 @@
+.container {
+  background: #949494;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-wrapper {
+  background-color: rgba(3, 23, 64, 0.774);
+  min-width: 450px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 3px 6px 40px #000;
+}
+
+/*My styles*/
+
+.header h1 {
+  color: azure;
+  text-align: center;
+  margin: 0px 5px 30px 5px;
+}
+
+.productImage{
+  width: 5.5rem;
+  height: 5.5rem;
+}
+
+.product{
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgba(204, 204, 204, 0.185);
+}
+
+.product div{
+  margin: 0.9rem;
+  
+}
+
+.productDescriprion h3{
+  margin-top: 0%;
+  margin-bottom: 0.5rem;
+  color: azure;
+}
+
+
+.productDescriprion a{
+color: #acaaaa;
+}
+
+.carButton{
+  position: fixed;
+  right: 5rem;
+}
